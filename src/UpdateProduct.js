@@ -1,6 +1,12 @@
+import Header from "./Header"
+
 function UpdateProduct(){
     return(
-        <h1> UpdateProduct Page </h1>
+        <div>
+            <Header />
+            <h1> UpdateProduct Page </h1>
+        </div>
+        
     )
 }
 

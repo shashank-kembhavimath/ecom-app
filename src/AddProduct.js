@@ -1,6 +1,12 @@
+import Header from "./Header"
+
 function AddProduct(){
     return(
-        <h1> AddProduct Page </h1>
+        <div>
+            <Header />
+            <h1> AddProduct Page </h1>
+        </div>
+        
     )
 }
 
